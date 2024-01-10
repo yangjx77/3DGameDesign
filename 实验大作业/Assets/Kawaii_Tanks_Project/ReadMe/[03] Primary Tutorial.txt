@@ -1,0 +1,71 @@
+"Primary Tutorial" (Ver.1.0)
+
+Please feel free to contact me if you have any questions.
+shopmaster@chobi-glass.com
+http://chobi-glass.com/Unity/index.html
+
+
+
+This tutorial provides the basic knowledge of the objects set in the demo scenes.
+
+(1) Open the demo scene "Test_Field".
+     'Kawaii_Tanks_Project' >> 'Kawaii_Tanks_Assets' >> 'Scenes' >> Double click the "Test_Field".
+
+
+(2) Explore the Hierarchy window.
+    You can find the following objects in the Hierarchy window.
+    "Directional light", "Terrain" and "Props" are basic objects used for the level design. In this porject, you need to attach any collider into the terrain and the obstacles.
+    "Canvas_Images" contains image objects displayed in the runtime such as the aiming marker and the reticle. The image objects instantiated in the runtime should be placed under this canvas.
+    "Canvas_Texts" contains text objects displayed in the runtime. The text objects instantiated in the runtime should be placed under this canvas.
+    "Game_Controller" controls switching player's tank, restarting the scene and pausing.
+    "EventSystem" is required to use Unity GUI components such as a button.
+    "SD_Tiger-I_1.1" and "SD_Firefly_1.1" are player's tanks in this scene. The settings of the tank are explained later.
+
+    The minimum required objects to create a new scene are "Canvas_Images", "Canvas_Texts", "Game_Controller" and player's tank.
+    When the platform is mobile devices, "EventSystem" is also required.
+    Ofcourse, set also your terrain, props and light.
+    You can find those prefabs in the 'Scene_Components' folder.
+        'Kawaii_Tanks_Project' >> 'Kawaii_Tanks_Assets' >> 'Prefabs' >> 'Scene_Components'
+
+    
+(3) How to set the tank.
+    The tank can be set by dragging and dropping the prefab into the scene.
+    You can find the tank prefabs in the 'Prefab' folder.
+        'Kawaii_Tanks_Project' >> 'Kawaii_Tanks_Assets' >> 'Prefabs'
+
+    When there are several tanks in the scene, you need to give an individual ID number to each tank.
+    Select the top object of the tank, and set the "Id" in the Inspector window.
+
+
+(4) Main tank settings.
+    [Damage settings]
+    Top object >> "Damage_Control_CS"
+
+    [Driving settings]
+    "MainBody" >> "Wheel_Control_CS"
+
+    [Turret, Cannon and Barrel settings]
+    "Turret_Base" >> "Turret_Control_CS"
+    "Cannon_Base" >> "Cannon_Control_CS"
+    "Barrel_Base" >> "Barrel_Control_CS"
+
+    [Firing settings]
+    "Cannon_Base" >> "Fire_Control_CS"
+
+    [Bullet settings]
+    "Fire_Point" >> "Fire_Spawn_CS"
+
+    [Wheel and Track settings]
+    The wheels and tracks editors are not included in the free version.
+
+
+(5) Scene settings.
+    "Game_Controller" >> "Game_Controller_CS"
+    
+
+
+Please feel free to contact me if you have any questions.
+shopmaster@chobi-glass.com
+http://chobi-glass.com/Unity/index.html
+
+

@@ -1,0 +1,30 @@
+"Layer settings" (Ver.1.1)
+
+Please feel free to contact me if you have any questions.
+shopmaster@chobi-glass.com
+http://chobi-glass.com/Unity/index.html
+
+
+
+This project uses three User Layers to set the tank parts.
+'User Layer 9' is used for the wheel.
+'User Layer 10' is used for the suspension.
+'User Layer 11' is used for the MainBody.
+
+(Note.)
+Do not use these User Layers for your remodeling.
+If you need to use these User Layers for other assets, change the collision settings in the "Game_Controller_CS" script.
+
+The layer collision matrix in this project is set by "Game_Controller_CS" script at the opening of the scene.
+
+The wheels placed in "User Layer 9" never collide with each other and the MainBody.
+The suspension arms placed in "User Layer 10" never collide with any object.
+The MainBody placed in "User Layer 11" never collide with the wheels.
+
+
+
+Please feel free to contact me if you have any questions.
+shopmaster@chobi-glass.com
+http://chobi-glass.com/Unity/index.html
+
+

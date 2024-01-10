@@ -1,0 +1,23 @@
+"How to start" (Ver.1.1)
+
+Please feel free to contact me if you have any questions.
+shopmaster@chobi-glass.com
+http://chobi-glass.com/Unity/index.html
+
+
+
+[ Getting Started ]
+(1) Create a new project, and import this package from Asset Store.
+    Window >> AssetStore >> Import this package from 'Download Manager'.
+
+(2) Import "CrossPlatformInput".
+    This project requires "CrossPlatformInput" in 'Unity Standard Assets' in order to use the touch controls.
+    Assets >> Import package >> CrossPlatformInput >> Press the "Import" button.
+
+(3) Switch the Platform when you need Touch Controls.
+    Switch the Platform to 'Android' or 'iOS' when you need touch controls.
+    Select the 'Android' or 'iOS' in the Platform box, and press the "Switch Platform" button.
+    
+(4) Make sure that the Touch Controls work well.
+    Open the demo scene, and make sure that the touch pads work well.
+    
